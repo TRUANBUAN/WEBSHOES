@@ -1,0 +1,57 @@
+* {
+  inset: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  
+
+  inset: 0;
+  box-shadow:  0 0 35px white;
+
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style:none
+}
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/*--------------Heder---------- */
+
+@import url("./components/Header/Header.css");
+
+
+/*--------------Product----------*/
+
+@import url("./components/Page/products/Product.css");
+/*--------------Product----------*/
+
+@import url("./components/Page/detailproduct/DetailProduct.css");
+ 
+
+@import url("./components/Page/auth/Login.css");
+
+@import url("./components/Page/cart/Cart.css");
+ 
+
+@import url("./components//Page//history/History.css");
+
+@import url("./components/category/Category.css");
+
+@import url( "./components/Page/createProducts/CreateProduct.css");

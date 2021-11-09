@@ -1,0 +1,44 @@
+header{
+    min-height: 70px;    
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+header .Logo{
+    flex:0.8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header a {
+    text-transform: uppercase;
+    color: black;
+}
+header ul li{
+    display: inline-block;
+    opacity: .7;
+    padding: 0 20px;
+}
+header ul li:hover{
+    opacity: 2;
+}
+.Menu{
+    display: none;
+}
+.cart-icon{
+    position: relative;
+    margin-right: 10px;
+}
+.cart-icon span{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    bottom:15px;
+    left: 9px;
+    text-align: center;
+    
+    
+}
